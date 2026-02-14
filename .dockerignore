@@ -1,0 +1,15 @@
+# source control
+.git
+.gitignore
+
+# local config / editor
+.vscode/
+.env
+
+# node deps, logs, docs
+node_modules/
+*.log
+*.md
+
+# don't copy the Dockerfile into the image static directory
+Dockerfile
